@@ -1,0 +1,480 @@
+2022-09-22 13:00:23,433 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2022-09-22 13:00:23,433 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2022-09-22 13:00:24,165 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-09-22 13:00:24,165 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-09-22 13:00:24,319 INFO [main][GenericScope.java:295] - BeanFactory id=63899d2b-bcdc-3d78-8f23-cd8b3b852e5c
+2022-09-22 13:00:24,319 INFO [main][GenericScope.java:295] - BeanFactory id=63899d2b-bcdc-3d78-8f23-cd8b3b852e5c
+2022-09-22 13:00:24,706 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-09-22 13:00:24,706 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-09-22 13:00:24,847 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-09-22 13:00:24,847 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-09-22 13:00:26,200 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2022-09-22 13:00:26,200 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2022-09-22 13:00:26,232 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.insert
+2022-09-22 13:00:26,232 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.insert
+2022-09-22 13:00:26,238 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.delete
+2022-09-22 13:00:26,238 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.delete
+2022-09-22 13:00:26,241 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteByMap
+2022-09-22 13:00:26,241 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteByMap
+2022-09-22 13:00:26,267 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteById
+2022-09-22 13:00:26,267 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteById
+2022-09-22 13:00:26,269 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2022-09-22 13:00:26,269 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2022-09-22 13:00:26,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.update
+2022-09-22 13:00:26,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.update
+2022-09-22 13:00:26,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.updateById
+2022-09-22 13:00:26,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.updateById
+2022-09-22 13:00:26,279 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectById
+2022-09-22 13:00:26,279 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectById
+2022-09-22 13:00:26,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2022-09-22 13:00:26,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2022-09-22 13:00:26,285 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectByMap
+2022-09-22 13:00:26,285 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectByMap
+2022-09-22 13:00:26,291 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectOne
+2022-09-22 13:00:26,291 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectOne
+2022-09-22 13:00:26,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectCount
+2022-09-22 13:00:26,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectCount
+2022-09-22 13:00:26,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMaps
+2022-09-22 13:00:26,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMaps
+2022-09-22 13:00:26,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2022-09-22 13:00:26,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectObjs
+2022-09-22 13:00:26,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2022-09-22 13:00:26,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectObjs
+2022-09-22 13:00:26,316 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectList
+2022-09-22 13:00:26,316 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectList
+2022-09-22 13:00:26,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectPage
+2022-09-22 13:00:26,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectPage
+2022-09-22 13:00:26,344 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.insert
+2022-09-22 13:00:26,344 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.insert
+2022-09-22 13:00:26,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.delete
+2022-09-22 13:00:26,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.delete
+2022-09-22 13:00:26,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2022-09-22 13:00:26,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2022-09-22 13:00:26,356 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2022-09-22 13:00:26,356 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2022-09-22 13:00:26,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-09-22 13:00:26,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-09-22 13:00:26,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.update
+2022-09-22 13:00:26,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.update
+2022-09-22 13:00:26,374 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2022-09-22 13:00:26,374 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2022-09-22 13:00:26,375 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2022-09-22 13:00:26,375 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2022-09-22 13:00:26,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-09-22 13:00:26,382 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-09-22 13:00:26,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2022-09-22 13:00:26,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2022-09-22 13:00:26,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2022-09-22 13:00:26,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2022-09-22 13:00:26,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2022-09-22 13:00:26,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2022-09-22 13:00:26,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2022-09-22 13:00:26,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2022-09-22 13:00:26,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-09-22 13:00:26,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-09-22 13:00:26,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2022-09-22 13:00:26,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2022-09-22 13:00:26,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2022-09-22 13:00:26,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2022-09-22 13:00:26,436 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2022-09-22 13:00:26,436 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2022-09-22 13:00:26,868 INFO [main][StartupInfoLogger.java:61] - Started MessageProcessClassTest in 4.872 seconds (JVM running for 7.266)
+2022-09-22 13:00:26,868 INFO [main][StartupInfoLogger.java:61] - Started MessageProcessClassTest in 4.872 seconds (JVM running for 7.266)
+2022-09-22 13:00:27,331 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2022-09-22 13:00:27,331 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2022-09-22 13:00:27,334 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2022-09-22 13:00:27,334 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2022-09-22 13:00:27,336 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2022-09-22 13:00:27,336 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2022-09-22 13:00:27,336 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2022-09-22 13:00:27,336 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2022-09-22 13:00:27,337 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2022-09-22 13:00:27,337 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2022-09-22 13:00:27,337 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2022-09-22 13:00:27,337 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2022-09-22 13:00:27,339 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2022-09-22 13:00:27,339 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2022-09-22 13:00:27,339 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2022-09-22 13:00:27,339 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2022-09-22 13:00:27,339 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2022-09-22 13:00:27,339 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2022-09-22 13:00:27,339 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2022-09-22 13:00:27,339 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2022-09-22 13:00:27,340 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2022-09-22 13:00:27,340 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2022-09-22 13:00:27,341 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2022-09-22 13:00:27,341 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2022-09-22 13:00:27,341 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2022-09-22 13:00:27,341 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2022-09-22 13:00:27,342 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2022-09-22 13:00:27,342 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2022-09-22 13:00:27,342 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2022-09-22 13:00:27,342 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2022-09-22 13:00:27,343 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2022-09-22 13:00:27,343 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2022-09-22 13:00:27,344 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2022-09-22 13:00:27,344 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2022-09-22 13:00:27,344 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2022-09-22 13:00:27,344 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2022-09-22 13:00:27,345 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2022-09-22 13:00:27,345 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2022-09-22 13:00:27,346 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2022-09-22 13:00:27,346 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2022-09-22 13:00:27,346 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2022-09-22 13:00:27,346 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2022-09-22 13:00:27,347 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2022-09-22 13:00:27,347 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2022-09-22 13:00:27,348 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2022-09-22 13:00:27,348 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2022-09-22 13:00:27,348 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2022-09-22 13:00:27,348 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2022-09-22 13:00:27,349 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2022-09-22 13:00:27,349 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2022-09-22 13:00:27,349 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2022-09-22 13:00:27,349 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2022-09-22 13:00:27,350 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2022-09-22 13:00:27,350 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2022-09-22 13:00:27,351 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2022-09-22 13:00:27,351 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2022-09-22 13:00:27,351 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2022-09-22 13:00:27,351 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2022-09-22 13:00:27,352 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2022-09-22 13:00:27,352 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2022-09-22 13:00:27,352 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2022-09-22 13:00:27,352 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2022-09-22 13:00:27,353 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2022-09-22 13:00:27,353 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2022-09-22 13:00:27,354 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2022-09-22 13:00:27,354 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2022-09-22 13:00:27,354 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2022-09-22 13:00:27,354 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2022-09-22 13:00:27,355 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2022-09-22 13:00:27,355 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2022-09-22 13:00:27,356 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2022-09-22 13:00:27,356 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2022-09-22 13:00:27,693 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@166b11e
+2022-09-22 13:00:27,693 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@166b11e
+2022-09-22 13:00:27,696 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2022-09-22 13:00:27,696 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2022-09-22 13:00:27,707 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' limit ?
+2022-09-22 13:00:27,707 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' limit ?
+2022-09-22 13:00:27,750 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 2(Integer)
+2022-09-22 13:00:27,750 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 2(Integer)
+2022-09-22 13:00:27,792 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 2
+2022-09-22 13:00:27,792 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 2
+2022-09-22 13:00:27,797 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-09-22 13:00:27,797 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-09-22 13:00:27,805 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:55] - 开始任务:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:00:27,805 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:55] - 开始任务:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:00:27,806 DEBUG [pool-2-thread-1][MessageProcessClass.java:29] - 开始执行任务:5
+2022-09-22 13:00:27,806 DEBUG [pool-2-thread-1][MessageProcessClass.java:29] - 开始执行任务:5
+2022-09-22 13:00:27,810 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5789b5ce
+2022-09-22 13:00:27,810 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5789b5ce
+2022-09-22 13:00:27,819 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@235357ea
+2022-09-22 13:00:27,819 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@235357ea
+2022-09-22 13:00:27,830 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57118993
+2022-09-22 13:00:27,830 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57118993
+2022-09-22 13:00:27,839 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76eac001
+2022-09-22 13:00:27,839 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76eac001
+2022-09-22 13:00:27,849 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15cfd69b
+2022-09-22 13:00:27,849 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15cfd69b
+2022-09-22 13:00:27,858 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10008aa1
+2022-09-22 13:00:27,858 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10008aa1
+2022-09-22 13:00:27,869 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62468645
+2022-09-22 13:00:27,869 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62468645
+2022-09-22 13:00:27,877 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a440bf1
+2022-09-22 13:00:27,877 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a440bf1
+2022-09-22 13:00:27,887 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e2d263b
+2022-09-22 13:00:27,887 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e2d263b
+2022-09-22 13:00:27,888 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-09-22 13:00:27,888 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-09-22 13:00:32,809 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,message_type,business_key1,business_key2,business_key3,execute_num,state,returnfailure_date,returnsuccess_date,returnfailure_msg,execute_date,stage_state1,stage_state2,stage_state3,stage_state4 FROM mq_message WHERE id=?
+2022-09-22 13:00:32,809 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,message_type,business_key1,business_key2,business_key3,execute_num,state,returnfailure_date,returnsuccess_date,returnfailure_msg,execute_date,stage_state1,stage_state2,stage_state3,stage_state4 FROM mq_message WHERE id=?
+2022-09-22 13:00:32,810 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 5(Long)
+2022-09-22 13:00:32,810 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 5(Long)
+2022-09-22 13:00:32,814 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2022-09-22 13:00:32,814 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2022-09-22 13:00:32,814 DEBUG [pool-2-thread-1][MessageProcessClass.java:47] - 第一阶段任务已完成
+2022-09-22 13:00:32,814 DEBUG [pool-2-thread-1][MessageProcessClass.java:47] - 第一阶段任务已完成
+2022-09-22 13:00:32,814 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:60] - 任务执行成功:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0))
+2022-09-22 13:00:32,814 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:60] - 任务执行成功:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0))
+2022-09-22 13:00:32,815 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:73] - 结束任务:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:00:32,815 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:73] - 结束任务:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:00:32,815 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:55] - 开始任务:MqMessage(id=6, messageType=222, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:00:32,815 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:55] - 开始任务:MqMessage(id=6, messageType=222, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:00:32,815 DEBUG [pool-2-thread-1][MessageProcessClass.java:29] - 开始执行任务:6
+2022-09-22 13:00:32,815 DEBUG [pool-2-thread-1][MessageProcessClass.java:29] - 开始执行任务:6
+2022-09-22 13:00:35,574 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2022-09-22 13:00:35,574 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2022-09-22 13:00:35,575 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-09-22 13:00:35,575 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-09-22 13:00:35,576 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@166b11e: (connection evicted)
+2022-09-22 13:00:35,576 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@166b11e: (connection evicted)
+2022-09-22 13:00:35,582 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5789b5ce: (connection evicted)
+2022-09-22 13:00:35,582 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5789b5ce: (connection evicted)
+2022-09-22 13:00:35,583 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@235357ea: (connection evicted)
+2022-09-22 13:00:35,583 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@235357ea: (connection evicted)
+2022-09-22 13:00:35,584 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57118993: (connection evicted)
+2022-09-22 13:00:35,584 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57118993: (connection evicted)
+2022-09-22 13:00:35,585 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76eac001: (connection evicted)
+2022-09-22 13:00:35,585 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76eac001: (connection evicted)
+2022-09-22 13:00:35,585 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15cfd69b: (connection evicted)
+2022-09-22 13:00:35,585 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15cfd69b: (connection evicted)
+2022-09-22 13:00:35,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10008aa1: (connection evicted)
+2022-09-22 13:00:35,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10008aa1: (connection evicted)
+2022-09-22 13:00:35,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@62468645: (connection evicted)
+2022-09-22 13:00:35,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@62468645: (connection evicted)
+2022-09-22 13:00:35,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5a440bf1: (connection evicted)
+2022-09-22 13:00:35,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5a440bf1: (connection evicted)
+2022-09-22 13:00:35,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e2d263b: (connection evicted)
+2022-09-22 13:00:35,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e2d263b: (connection evicted)
+2022-09-22 13:00:35,588 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-09-22 13:00:35,588 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-09-22 13:00:35,588 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2022-09-22 13:00:35,588 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2022-09-22 13:03:42,695 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2022-09-22 13:03:42,695 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2022-09-22 13:03:43,199 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-09-22 13:03:43,199 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-09-22 13:03:43,332 INFO [main][GenericScope.java:295] - BeanFactory id=63899d2b-bcdc-3d78-8f23-cd8b3b852e5c
+2022-09-22 13:03:43,332 INFO [main][GenericScope.java:295] - BeanFactory id=63899d2b-bcdc-3d78-8f23-cd8b3b852e5c
+2022-09-22 13:03:43,642 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-09-22 13:03:43,642 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-09-22 13:03:43,789 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-09-22 13:03:43,789 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2022-09-22 13:03:45,195 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2022-09-22 13:03:45,195 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2022-09-22 13:03:45,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.insert
+2022-09-22 13:03:45,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.insert
+2022-09-22 13:03:45,243 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.delete
+2022-09-22 13:03:45,243 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.delete
+2022-09-22 13:03:45,247 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteByMap
+2022-09-22 13:03:45,247 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteByMap
+2022-09-22 13:03:45,279 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteById
+2022-09-22 13:03:45,279 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteById
+2022-09-22 13:03:45,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2022-09-22 13:03:45,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2022-09-22 13:03:45,290 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.update
+2022-09-22 13:03:45,290 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.update
+2022-09-22 13:03:45,293 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.updateById
+2022-09-22 13:03:45,293 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.updateById
+2022-09-22 13:03:45,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectById
+2022-09-22 13:03:45,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectById
+2022-09-22 13:03:45,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2022-09-22 13:03:45,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2022-09-22 13:03:45,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectByMap
+2022-09-22 13:03:45,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectByMap
+2022-09-22 13:03:45,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectOne
+2022-09-22 13:03:45,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectOne
+2022-09-22 13:03:45,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectCount
+2022-09-22 13:03:45,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectCount
+2022-09-22 13:03:45,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMaps
+2022-09-22 13:03:45,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMaps
+2022-09-22 13:03:45,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2022-09-22 13:03:45,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2022-09-22 13:03:45,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectObjs
+2022-09-22 13:03:45,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectObjs
+2022-09-22 13:03:45,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectList
+2022-09-22 13:03:45,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectList
+2022-09-22 13:03:45,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectPage
+2022-09-22 13:03:45,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageMapper.selectPage
+2022-09-22 13:03:45,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.insert
+2022-09-22 13:03:45,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.insert
+2022-09-22 13:03:45,376 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.delete
+2022-09-22 13:03:45,376 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.delete
+2022-09-22 13:03:45,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2022-09-22 13:03:45,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2022-09-22 13:03:45,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2022-09-22 13:03:45,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2022-09-22 13:03:45,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-09-22 13:03:45,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-09-22 13:03:45,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.update
+2022-09-22 13:03:45,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.update
+2022-09-22 13:03:45,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2022-09-22 13:03:45,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2022-09-22 13:03:45,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2022-09-22 13:03:45,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2022-09-22 13:03:45,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-09-22 13:03:45,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-09-22 13:03:45,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2022-09-22 13:03:45,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2022-09-22 13:03:45,412 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2022-09-22 13:03:45,412 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2022-09-22 13:03:45,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2022-09-22 13:03:45,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2022-09-22 13:03:45,421 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2022-09-22 13:03:45,421 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2022-09-22 13:03:45,425 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-09-22 13:03:45,425 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-09-22 13:03:45,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2022-09-22 13:03:45,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2022-09-22 13:03:45,433 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2022-09-22 13:03:45,433 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2022-09-22 13:03:45,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2022-09-22 13:03:45,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2022-09-22 13:03:45,814 INFO [main][StartupInfoLogger.java:61] - Started MessageProcessClassTest in 4.477 seconds (JVM running for 7.186)
+2022-09-22 13:03:45,814 INFO [main][StartupInfoLogger.java:61] - Started MessageProcessClassTest in 4.477 seconds (JVM running for 7.186)
+2022-09-22 13:03:46,247 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2022-09-22 13:03:46,247 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2022-09-22 13:03:46,251 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2022-09-22 13:03:46,251 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2022-09-22 13:03:46,252 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2022-09-22 13:03:46,252 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2022-09-22 13:03:46,253 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2022-09-22 13:03:46,253 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2022-09-22 13:03:46,254 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2022-09-22 13:03:46,254 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2022-09-22 13:03:46,254 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2022-09-22 13:03:46,254 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2022-09-22 13:03:46,254 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2022-09-22 13:03:46,254 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2022-09-22 13:03:46,255 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2022-09-22 13:03:46,255 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2022-09-22 13:03:46,255 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2022-09-22 13:03:46,255 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2022-09-22 13:03:46,256 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2022-09-22 13:03:46,256 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2022-09-22 13:03:46,257 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2022-09-22 13:03:46,257 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2022-09-22 13:03:46,258 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2022-09-22 13:03:46,258 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2022-09-22 13:03:46,258 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2022-09-22 13:03:46,258 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2022-09-22 13:03:46,259 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2022-09-22 13:03:46,259 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2022-09-22 13:03:46,259 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2022-09-22 13:03:46,259 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2022-09-22 13:03:46,260 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2022-09-22 13:03:46,260 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2022-09-22 13:03:46,260 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2022-09-22 13:03:46,260 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2022-09-22 13:03:46,261 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2022-09-22 13:03:46,261 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2022-09-22 13:03:46,262 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2022-09-22 13:03:46,262 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2022-09-22 13:03:46,263 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2022-09-22 13:03:46,263 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2022-09-22 13:03:46,263 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2022-09-22 13:03:46,263 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2022-09-22 13:03:46,264 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2022-09-22 13:03:46,264 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2022-09-22 13:03:46,264 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2022-09-22 13:03:46,264 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2022-09-22 13:03:46,265 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2022-09-22 13:03:46,265 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2022-09-22 13:03:46,266 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2022-09-22 13:03:46,266 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2022-09-22 13:03:46,266 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2022-09-22 13:03:46,266 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2022-09-22 13:03:46,267 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2022-09-22 13:03:46,267 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2022-09-22 13:03:46,268 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2022-09-22 13:03:46,268 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2022-09-22 13:03:46,268 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2022-09-22 13:03:46,268 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2022-09-22 13:03:46,269 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2022-09-22 13:03:46,269 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2022-09-22 13:03:46,270 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2022-09-22 13:03:46,270 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2022-09-22 13:03:46,270 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2022-09-22 13:03:46,270 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2022-09-22 13:03:46,271 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2022-09-22 13:03:46,271 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2022-09-22 13:03:46,271 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2022-09-22 13:03:46,271 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2022-09-22 13:03:46,272 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2022-09-22 13:03:46,272 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2022-09-22 13:03:46,273 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2022-09-22 13:03:46,273 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2022-09-22 13:03:46,638 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fb22ae3
+2022-09-22 13:03:46,638 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fb22ae3
+2022-09-22 13:03:46,642 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2022-09-22 13:03:46,642 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2022-09-22 13:03:46,653 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' limit ?
+2022-09-22 13:03:46,653 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' limit ?
+2022-09-22 13:03:46,694 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 2(Integer)
+2022-09-22 13:03:46,694 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 2(Integer)
+2022-09-22 13:03:46,740 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 2
+2022-09-22 13:03:46,740 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 2
+2022-09-22 13:03:46,743 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-09-22 13:03:46,743 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-09-22 13:03:46,754 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13a4debc
+2022-09-22 13:03:46,754 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13a4debc
+2022-09-22 13:03:46,756 DEBUG [pool-2-thread-2][MessageProcessAbstract.java:56] - 开始任务:MqMessage(id=6, messageType=222, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:03:46,756 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:56] - 开始任务:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:03:46,756 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:56] - 开始任务:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:03:46,756 DEBUG [pool-2-thread-2][MessageProcessAbstract.java:56] - 开始任务:MqMessage(id=6, messageType=222, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:03:46,756 DEBUG [pool-2-thread-1][MessageProcessClass.java:29] - 开始执行任务:5
+2022-09-22 13:03:46,756 DEBUG [pool-2-thread-2][MessageProcessClass.java:29] - 开始执行任务:6
+2022-09-22 13:03:46,756 DEBUG [pool-2-thread-1][MessageProcessClass.java:29] - 开始执行任务:5
+2022-09-22 13:03:46,756 DEBUG [pool-2-thread-2][MessageProcessClass.java:29] - 开始执行任务:6
+2022-09-22 13:03:46,764 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67bac553
+2022-09-22 13:03:46,764 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67bac553
+2022-09-22 13:03:46,773 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f331f24
+2022-09-22 13:03:46,773 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f331f24
+2022-09-22 13:03:46,781 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32c777d3
+2022-09-22 13:03:46,781 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32c777d3
+2022-09-22 13:03:46,791 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15c10492
+2022-09-22 13:03:46,791 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15c10492
+2022-09-22 13:03:46,799 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4790f5e8
+2022-09-22 13:03:46,799 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4790f5e8
+2022-09-22 13:03:46,808 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5edc1641
+2022-09-22 13:03:46,808 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5edc1641
+2022-09-22 13:03:46,816 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64b133a9
+2022-09-22 13:03:46,816 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64b133a9
+2022-09-22 13:03:46,825 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f35c884
+2022-09-22 13:03:46,825 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f35c884
+2022-09-22 13:03:46,825 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-09-22 13:03:46,825 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-09-22 13:03:52,036 DEBUG [pool-2-thread-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,message_type,business_key1,business_key2,business_key3,execute_num,state,returnfailure_date,returnsuccess_date,returnfailure_msg,execute_date,stage_state1,stage_state2,stage_state3,stage_state4 FROM mq_message WHERE id=?
+2022-09-22 13:03:52,036 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,message_type,business_key1,business_key2,business_key3,execute_num,state,returnfailure_date,returnsuccess_date,returnfailure_msg,execute_date,stage_state1,stage_state2,stage_state3,stage_state4 FROM mq_message WHERE id=?
+2022-09-22 13:03:52,036 DEBUG [pool-2-thread-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,message_type,business_key1,business_key2,business_key3,execute_num,state,returnfailure_date,returnsuccess_date,returnfailure_msg,execute_date,stage_state1,stage_state2,stage_state3,stage_state4 FROM mq_message WHERE id=?
+2022-09-22 13:03:52,036 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,message_type,business_key1,business_key2,business_key3,execute_num,state,returnfailure_date,returnsuccess_date,returnfailure_msg,execute_date,stage_state1,stage_state2,stage_state3,stage_state4 FROM mq_message WHERE id=?
+2022-09-22 13:03:52,037 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 5(Long)
+2022-09-22 13:03:52,037 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 5(Long)
+2022-09-22 13:03:52,037 DEBUG [pool-2-thread-2][BaseJdbcLogger.java:137] - ==> Parameters: 6(Long)
+2022-09-22 13:03:52,037 DEBUG [pool-2-thread-2][BaseJdbcLogger.java:137] - ==> Parameters: 6(Long)
+2022-09-22 13:03:52,053 DEBUG [pool-2-thread-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2022-09-22 13:03:52,053 DEBUG [pool-2-thread-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2022-09-22 13:03:52,054 DEBUG [pool-2-thread-2][MessageProcessClass.java:47] - 第一阶段任务已完成
+2022-09-22 13:03:52,054 DEBUG [pool-2-thread-2][MessageProcessClass.java:47] - 第一阶段任务已完成
+2022-09-22 13:03:52,055 DEBUG [pool-2-thread-2][MessageProcessAbstract.java:61] - 任务执行成功:MqMessage(id=6, messageType=222, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0))
+2022-09-22 13:03:52,055 DEBUG [pool-2-thread-2][MessageProcessAbstract.java:61] - 任务执行成功:MqMessage(id=6, messageType=222, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0))
+2022-09-22 13:03:52,055 DEBUG [pool-2-thread-2][MessageProcessAbstract.java:74] - 结束任务:MqMessage(id=6, messageType=222, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:03:52,055 DEBUG [pool-2-thread-2][MessageProcessAbstract.java:74] - 结束任务:MqMessage(id=6, messageType=222, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:03:52,190 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2022-09-22 13:03:52,190 DEBUG [pool-2-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2022-09-22 13:03:52,190 DEBUG [pool-2-thread-1][MessageProcessClass.java:47] - 第一阶段任务已完成
+2022-09-22 13:03:52,190 DEBUG [pool-2-thread-1][MessageProcessClass.java:47] - 第一阶段任务已完成
+2022-09-22 13:03:52,191 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:61] - 任务执行成功:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0))
+2022-09-22 13:03:52,191 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:61] - 任务执行成功:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0))
+2022-09-22 13:03:52,191 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:74] - 结束任务:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:03:52,191 DEBUG [pool-2-thread-1][MessageProcessAbstract.java:74] - 结束任务:MqMessage(id=5, messageType=111, businessKey1=null, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=1, stageState2=0, stageState3=0, stageState4=0)
+2022-09-22 13:03:52,735 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2022-09-22 13:03:52,735 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2022-09-22 13:03:52,736 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-09-22 13:03:52,736 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-09-22 13:03:52,897 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fb22ae3: (connection evicted)
+2022-09-22 13:03:52,897 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fb22ae3: (connection evicted)
+2022-09-22 13:03:52,910 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13a4debc: (connection evicted)
+2022-09-22 13:03:52,910 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13a4debc: (connection evicted)
+2022-09-22 13:03:52,910 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67bac553: (connection evicted)
+2022-09-22 13:03:52,910 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67bac553: (connection evicted)
+2022-09-22 13:03:52,915 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f331f24: (connection evicted)
+2022-09-22 13:03:52,915 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f331f24: (connection evicted)
+2022-09-22 13:03:52,916 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32c777d3: (connection evicted)
+2022-09-22 13:03:52,916 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32c777d3: (connection evicted)
+2022-09-22 13:03:52,917 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15c10492: (connection evicted)
+2022-09-22 13:03:52,917 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15c10492: (connection evicted)
+2022-09-22 13:03:52,918 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4790f5e8: (connection evicted)
+2022-09-22 13:03:52,918 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4790f5e8: (connection evicted)
+2022-09-22 13:03:52,918 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5edc1641: (connection evicted)
+2022-09-22 13:03:52,918 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5edc1641: (connection evicted)
+2022-09-22 13:03:52,919 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64b133a9: (connection evicted)
+2022-09-22 13:03:52,919 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64b133a9: (connection evicted)
+2022-09-22 13:03:52,923 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f35c884: (connection evicted)
+2022-09-22 13:03:52,923 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f35c884: (connection evicted)
+2022-09-22 13:03:52,924 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-09-22 13:03:52,924 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-09-22 13:03:52,924 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2022-09-22 13:03:52,924 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

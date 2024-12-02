@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuecheng.content.mapper.CourseBaseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xuecheng.content.model.po.CourseBase">
+        <id column="id" property="id" />
+        <result column="company_id" property="companyId" />
+        <result column="company_name" property="companyName" />
+        <result column="name" property="name" />
+        <result column="users" property="users" />
+        <result column="tags" property="tags" />
+        <result column="mt" property="mt" />
+        <result column="st" property="st" />
+        <result column="grade" property="grade" />
+        <result column="teachmode" property="teachmode" />
+        <result column="description" property="description" />
+        <result column="pic" property="pic" />
+        <result column="create_date" property="createDate" />
+        <result column="change_date" property="changeDate" />
+        <result column="create_people" property="createPeople" />
+        <result column="change_people" property="changePeople" />
+        <result column="audit_status" property="auditStatus" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, company_id, company_name, name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date, create_people, change_people, audit_status, status
+    </sql>
+
+    <select id="queryCourseBaseList" resultType="com.xuecheng.content.model.po.CourseBase">
+        select * from course_base c
+        <if test="auditStatus !=null and auditStatus! = ''">
+            and c.staus = #{auditStatus}
+        </if>
+        <if test="courseName !=null and courseName! = ''">
+            and c.name like concat('%',#{courseName},'%')
+        </if>
+        <if test="publishStatus !=null and publishStatus! = ''">
+
+        </if>
+    </select>
+    <select id="getCourseBaseInfo" resultType="com.xuecheng.content.model.dto.CourseBaseInfoDto">
+        select
+            cb.id,
+            cb.company_id,
+            cb.company_name,
+            cb.name,
+            cb.users,
+            cb.tags,
+            cb.mt,
+            cb.st,
+            cb.grade,
+            cb.teachmode,
+            cb.description,
+            cb.pic,
+            cb.create_date,
+            cb.change_date,
+            cb.create_people,
+            cb.change_people,
+            cb.audit_status,
+            cb.status,
+            cm.charge,
+            cm.price,
+            cm.qq,
+            cm.original_price,
+            cm.wechat,
+            cm.phone,
+            cm.valid_days
+        from course_base cb
+        left join course_market cm on cb.id = cm.id
+        where cb.id = #{id}
+    </select>
+
+
+</mapper>
